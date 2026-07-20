@@ -1,0 +1,45 @@
+# FastShooter Plugin Configuration
+
+# Select the language to use for messages. Corresponds to the section in messages.yml
+# Available: EN, HE
+language: "HE"
+
+weapon:
+  material: WOODEN_HOE
+  custom-model-data: 1
+  display-name: "<gradient:#FFD700:#FFA500>Fast Shooter Gun</gradient>"
+  lore:
+    - "<gray>The ultimate weapon for tournaments.</gray>"
+    - "<yellow>Don't shoot too early!</yellow>"
+
+locations:
+  # The world where the minigame takes place
+  world: "world"
+  # Crowd / Spectator area 1
+  pos1:
+    x: 10.5
+    y: 65.0
+    z: 10.5
+    yaw: 0.0
+    pitch: 0.0
+  # Crowd / Spectator area 2
+  pos2:
+    x: 15.5
+    y: 65.0
+    z: 15.5
+    yaw: 180.0
+    pitch: 0.0
+  # Duel shooting point 1
+  shoot1:
+    x: 12.5
+    y: 64.0
+    z: 12.5
+    yaw: 90.0
+    pitch: 0.0
+  # Duel shooting point 2
+  shoot2:
+    x: 13.5
+    y: 64.0
+    z: 12.5
+    yaw: -90.0
+    pitch: 0.0

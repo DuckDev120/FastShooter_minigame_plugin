@@ -1,0 +1,104 @@
+EN:
+  prefix: "<gray>[<gradient:#FF5555:#FFAAAA>FastShooter</gradient>]</gray> "
+  msg_queue_join: "%shooter% <green>You have joined the tournament queue!</green>"
+  msg_queue_leave: "%shooter% <yellow>You have left the tournament.</yellow>"
+  already_in_queue: "%shooter% <red>You are already in the tournament!</red>"
+  not_in_queue: "%shooter% <red>You are not in the tournament!</red>"
+  no_console: "%shooter% <red>Only players can execute this command.</red>"
+  no_permission: "%shooter% <red>You do not have permission to do this!</red>"
+  tournament_already_started: "%shooter% <red>A tournament is already in progress!</red>"
+  tournament_closed: "%shooter% <red>The tournament queue is currently closed!</red>"
+  tournament_already_open: "%shooter% <red>The tournament is already open!</red>"
+  not_enough_players: "%shooter% <red>Not enough eligible players in the queue to start a tournament (minimum 2)!</red>"
+  msg_not_enough_locations: "%shooter% <red>Setup is incomplete. Please set pos1, pos2, shoot1, and shoot2 first!</red>"
+  
+  setup_success: "%shooter% <green>Successfully set location for %location_id%!</green>"
+  
+  queue_opened: "%shooter% <green>The FastShooter tournament is now OPEN! Type /shooter join to enter!</green>"
+  queue_closed: "%shooter% <red>The tournament queue has been CLOSED!</red>"
+  tournament_started: "%shooter% <green>The Tournament has begun! Advancing players to the crowd.</green>"
+  tournament_stopped: "%shooter% <red>The Tournament was forcefully stopped.</red>"
+  
+  round_started: "%shooter% <gold>Starting %round_name%!</gold>"
+  duel_announcement: "%shooter% <yellow>Next Duel: <gold>%player1%</gold> <yellow>vs</yellow> <gold>%player2%</gold></yellow>"
+  bye_announcement: "%shooter% <gold>%player%</gold> <yellow>receives a Bye and advances to the next round automatically.</yellow>"
+  
+  countdown_title: "<color:#FFA500>%time%</color>"
+  go_title: "<green><bold>GO!</bold></green>"
+  countdown_subtitle: "<gray>Get ready to jump! (Don't jump early)</gray>"
+  
+  bossbar_title: "<red>Ammo: %ammo%</red>"
+  ammo_symbol: "●"
+  
+  win_title: "<gradient:#FFD700:#FFA500>VICTORY!</gradient>"
+  win_subtitle: "<white>%winner% won in %time%ms!</white>"
+  lose_title: "<red>ELIMINATED</red>"
+  lose_subtitle: "<gray>Too slow!</gray>"
+  false_start_lose_title: "<dark_red>FALSE START</dark_red>"
+  false_start_lose_subtitle: "<red>You jumped early and ran out of ammo!</red>"
+  msg_draw: "%shooter% <red>No one fired in time! It's a draw.</red>"
+  
+  msg_winner_broadcast: "%shooter% <gold>%winner%</gold> <yellow>eliminated</yellow> <gold>%loser%</gold><yellow>!</yellow>"
+  msg_final_winner_title: "<gradient:#FFD700:#FFA500>★ %winner% IS THE TOURNAMENT CHAMPION! ★</gradient>"
+  
+  duel_cancelled: "%shooter% <red>The duel was cancelled due to a player disconnecting or an error.</red>"
+  
+  reload_success: "%shooter% <green>Configuration and messages reloaded successfully!</green>"
+  tournament_running_noreload: "%shooter% <red>Cannot reload while a tournament is running! Stop it first.</red>"
+  
+  expansion_not_running: "<red>Not Running</red>"
+  expansion_na: "N/A"
+  expansion_none: "None"
+  expansion_unknown: "Unknown"
+HE:
+  prefix: "<gray>[<gradient:#FF5555:#FFAAAA>FastShooter</gradient>]</gray> "
+  msg_queue_join: "%shooter% <green>הצטרפת בהצלחה לטורניר!</green>"
+  msg_queue_leave: "%shooter% <yellow>עזבת את הטורניר.</yellow>"
+  already_in_queue: "%shooter% <red>אתה כבר רשום לטורניר!</red>"
+  not_in_queue: "%shooter% <red>אינך רשום לטורניר!</red>"
+  no_console: "%shooter% <red>רק שחקנים יכולים לבצע פקודה זו.</red>"
+  no_permission: "%shooter% <red>אין לך גישה לפקודה זו!</red>"
+  tournament_already_started: "%shooter% <red>טורניר כבר מתנהל כעת!</red>"
+  tournament_closed: "%shooter% <red>ההרשמה לטורניר סגורה כרגע!</red>"
+  tournament_already_open: "%shooter% <red>ההרשמה לטורניר כבר פתוחה!</red>"
+  not_enough_players: "%shooter% <red>אין מספיק שחקנים כדי להתחיל (דרושים לפחות 2)!</red>"
+  msg_not_enough_locations: "%shooter% <red>ההגדרות חסרות. אנא הגדר תחילה את pos1, pos2, shoot1, shoot2!</red>"
+  
+  setup_success: "%shooter% <green>מיקום הוגדר בהצלחה עבור %location_id%!</green>"
+  
+  queue_opened: "%shooter% <green>הטורניר נפתח להרשמה! הקלד /shooter join כדי להשתתף!</green>"
+  queue_closed: "%shooter% <red>ההרשמה לטורניר נסגרה!</red>"
+  tournament_started: "%shooter% <green>הטורניר החל! מעביר שחקנים לקהל.</green>"
+  tournament_stopped: "%shooter% <red>הטורניר הופסק בכוח על ידי איש צוות.</red>"
+  
+  round_started: "%shooter% <gold>מתחילים: %round_name%!</gold>"
+  duel_announcement: "%shooter% <yellow>קרב הבא: <gold>%player1%</gold> <yellow>נגד</yellow> <gold>%player2%</gold></yellow>"
+  bye_announcement: "%shooter% <gold>%player%</gold> <yellow>קיבל כרטיס חופשי ועולה אוטומטית לשלב הבא.</yellow>"
+  
+  countdown_title: "<color:#FFA500>%time%</color>"
+  go_title: "<green><bold>צא!</bold></green>"
+  countdown_subtitle: "<gray>היכונו לירות! (אל תלחצו מוקדם)</gray>"
+  
+  bossbar_title: "<red>תחמושת: %ammo%</red>"
+  ammo_symbol: "●"
+  
+  win_title: "<gradient:#FFD700:#FFA500>ניצחון!</gradient>"
+  win_subtitle: "<white>%winner% ניצח עם  %time%ms!</white>"
+  lose_title: "<red>הודחת</red>"
+  lose_subtitle: "<gray>איטי מדי!</gray>"
+  false_start_lose_title: "<dark_red>פסילה!</dark_red>"
+  false_start_lose_subtitle: "<red>קפצת מוקדם מדי ונגמרה לך התחמושת!</red>"
+  msg_draw: "%shooter% <red>אף אחד לא ירה בזמן! תיקו.</red>"
+  
+  msg_winner_broadcast: "%shooter% <gold>%winner%</gold> <yellow>הדיח את</yellow> <gold>%loser%</gold><yellow>!</yellow>"
+  msg_final_winner_title: "<gradient:#FFD700:#FFA500>★ %winner% הוא אלוף הטורניר! ★</gradient>"
+  
+  duel_cancelled: "%shooter% <red>הקרב בוטל עקב התנתקות שחקן או שגיאה.</red>"
+  
+  reload_success: "%shooter% <green>הקונפיגורציה וההודעות נטענו מחדש בהצלחה!</green>"
+  tournament_running_noreload: "%shooter% <red>לא ניתן לטעון מחדש בזמן שטורניר מתנהל! הפסק אותו תחילה.</red>"
+  
+  expansion_not_running: "<red>לא פעיל</red>"
+  expansion_na: "לא זמין"
+  expansion_none: "אין"
+  expansion_unknown: "לא ידוע"

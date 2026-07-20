@@ -1,0 +1,32 @@
+name: FastShooter
+version: 1.2
+main: com.parlagames.shooter.FastShooterPlugin
+api-version: "1.20"
+author: DucksAreLavi
+softdepend: [PlaceholderAPI]
+
+# Placeholders for PlaceholderAPI:
+# %shooter_round% - Shows the current round (e.g., Round 1)
+# %shooter_progress% - Shows match progress (e.g., 1/4)
+# %shooter_advanced% - Shows a comma-separated list of players who advanced
+# %shooter_eliminated% - Shows a comma-separated list of eliminated players
+
+commands:
+  shooter:
+    description: FastShooter Minigame Tournament Command
+    aliases: [fs, qd, fastshooter]
+    usage: "/shooter <join|leave|start|stop|on|off|setup|help|reload>"
+
+permissions:
+  shooter.player.join:
+    description: Allows joining the tournament queue.
+    default: true
+  shooter.admin.state:
+    description: Allows changing the tournament state.
+    default: op
+  shooter.admin.setup:
+    description: Allows setting up arena coordinates.
+    default: op
+  shooter.admin.reload:
+    description: Allows reloading the configuration.
+    default: op
